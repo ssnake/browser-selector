@@ -1,0 +1,17 @@
+{
+    "rules": [
+        {
+            "pattern": "https?://(.*\\.)?github\\.com/.*",
+            "command": "google-chrome-stable --profile-directory='Profile 1'"
+        },
+        {
+            "pattern": "https?://(.*\\.)?gitlab\\.com/.*",
+            "command": "google-chrome-stable --profile-directory='Profile 1'"
+        },
+        {
+            "pattern": "https?://(.*\\.)?reddit\\.com/.*",
+            "command": "google-chrome-stable --profile-directory='Profile 2'"
+        }
+    ],
+    "default_browser": "firefox"
+}
