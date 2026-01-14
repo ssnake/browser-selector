@@ -19,7 +19,7 @@ A smart browser selector for Linux that automatically opens URLs in specific bro
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone git@github.com:ssnake/browser-selector.git
    cd browser-selector
    ```
 

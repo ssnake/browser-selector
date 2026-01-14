@@ -40,7 +40,7 @@ def main():
         command = rule.get("command")
         
         if pattern and command:
-            if re.match(pattern, url):
+            if re.match(pattern, url, re.IGNORECASE):
                 subprocess.Popen(f"{command} {url}", shell=True)
                 sys.exit(0)
 
